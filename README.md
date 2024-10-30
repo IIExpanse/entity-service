@@ -12,15 +12,17 @@ ___
 - Gradle
 - Spring Framework (Boot, Web, Data)
 - PostgreSQL
+- Liquibase
 - JUnit
 - Lombok
 - Mapstruct
+- Docker
 
 ## Deployment order
 
 Required:
 
-1. Install Java 21.
+1. Install Java 21 and Docker.
 
 ## API
 

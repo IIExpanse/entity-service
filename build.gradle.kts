@@ -26,6 +26,7 @@ dependencies {
     val lombokVersion: String by project
     val lombokMapstructBindingVersion: String by project
     val postgresVersion: String by project
+    val liquibaseVersion: String by project
     val postgresTestContainerVersion: String by project
 
     implementation(
@@ -37,7 +38,8 @@ dependencies {
         "org.mapstruct:mapstruct:${mapstructVersion}",
         "org.projectlombok:lombok-mapstruct-binding:${lombokMapstructBindingVersion}",
 
-        "org.postgresql:postgresql:${postgresVersion}"
+        "org.postgresql:postgresql:${postgresVersion}",
+        "org.liquibase:liquibase-core:${liquibaseVersion}",
     )
 
     compileOnly("org.projectlombok:lombok:${lombokVersion}")
